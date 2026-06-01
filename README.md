@@ -117,7 +117,7 @@ Open to entry-level and junior roles in:
 
 ---
 
-## 📬 Where I can be found
+## Where I can be found
 
 *   **GitHub Repository:** [github.com/ralphiecodes](https://github.com/ralphiecodes)
 *   **Professional LinkedIn:** [linkedin.com/in/topherdiaz87](https://www.linkedin.com/in/ralphie00/)
