@@ -121,4 +121,7 @@ Open to entry-level and junior roles in:
 *   **GitHub Repository:** [github.com/ralphiecodes](https://github.com/ralphiecodes)
 *   **Professional LinkedIn:** [linkedin.com/in/topherdiaz87](https://www.linkedin.com/in/ralphie00/)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5732162d3209ea7cee7badd8ff6241f8813233bd
