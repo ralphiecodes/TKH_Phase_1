@@ -1,0 +1,4 @@
+Timestamp,Source IP,Event Type,Action,Description
+Apr 30, 2026 @ 06:15:00.000, 198.51.100.44, Web Server, Initial Access, Hacker uploaded malicious payload.
+Apr 30, 2026 @ 06:25:00.000, 10.0.5.15, Windows Security, Lateral Movement, Hacker gave himself domain admin privileges.
+Apr 30, 2026 @ 06:45:00.000, 198.51.100.44, Firewall, Exfiltration, Hacker took 4.3 gigs over port 443 
