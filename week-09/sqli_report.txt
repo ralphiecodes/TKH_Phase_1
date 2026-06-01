@@ -1,0 +1,28 @@
+==================================================
+SESSION 25: SQL INJECTION EXFILTRATION REPORT
+==================================================
+
+1. AUTHENTICATION BYPASS
+* Tautology Payload Used: ' OR 1=1 --
+* Result: Injected a tautology into the username field, forcing the SQL query
+  to evaluate as always-true and bypassing the password check entirely.
+  Successfully authenticated and gained access to the Employee Directory.
+
+2. DATABASE MAPPING (UNION ATTACK)
+* Number of Columns Discovered: 2
+* Method: Incremented ORDER BY values until a database error triggered,
+  confirming the original query returns exactly 2 columns.
+* Table Name Discovered: employees
+* Schema Retrieved Via: ' UNION SELECT name, sql FROM sqlite_master --
+* Notable Column Found: salary
+
+3. DATA EXFILTRATION
+* Final UNION Payload Used: ' UNION SELECT name, salary FROM employees --
+* CEO Salary Extracted: $2,500,000
+
+4. REMEDIATION
+* Primary Defense Against SQLi:
+  Parameterized queries (prepared statements). Instead of concatenating user
+  input directly into the SQL string, the query structure is defined first and
+  the input is passed in separately as data. The database engine never
+  interprets it as executable code, which kills injection at the source.
