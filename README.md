@@ -62,41 +62,29 @@ Skilled in:
 
 The engineering artifacts and technical documentation within this repository are structured chronologically by operational focus:
 
-*   [**`Week1-Artifact/`**](./Week1-Artifact) → Linux security foundations, file system permissions, and baseline defensive automation.
-*   [**`Week2-Artifact/`**](./Week2-Artifact) → OSI-layer network diagnostics, gateway recovery, and CIDR subnet design.
-*   [**`Week3-Artifact/`**](./Week3-Artifact) → Python-driven threat intelligence automation, port scanners, and real-time auth log parsing.
-*   [**`Week4-Artifact/`**](./Week4-Artifact) → Multi-tier containerized architecture security and frontend/backend microservice isolation.
-*   [**`Week5-Artifact/`**](./Week5-Artifact) → Active Directory domain integration, automated IAM provisioning, and enterprise GPO enforcement.
-*   [**`Week6-Artifact/`**](./Week6-Artifact) → Cross-layer infrastructure troubleshooting, SSH security auditing, and formal Security Architecture Design (SAD).
-*   [**`Week7-Artifact/`**](./Week7-Artifact) → Active perimeter reconnaissance, port/service version interrogation, and risk-adjusted vulnerability triage.
-*   [**`Week8-Artifact/`**](./Week8-Artifact) → Vulnerability weaponization, persistent backdoor construction, privilege escalation, and SOCKS5 subnet pivoting.
-*   [**`Week9-Artifact/`**](./Week9-Artifact) → Web application vulnerability chaining (SQLi, XSS, CSRF) and API Broken Object Level Authorization (BOLA) exploitation.
-*   [**`Week10-Artifact/`**](./Week10-Artifact) → Live volatile triage, cryptographic evidence handling, raw disk block data carving, and ELK SIEM attack timeline analysis.
-*   [**`Week11-Artifact/`**](./Week11-Artifact) → Triple-tier Defense-in-Depth architecture engineering incorporating firewalls, network IDS signatures, and host EDR policies.
-*   [**`Week12-Artifact/`**](./Week12-Artifact) → Comprehensive final phase post-mortem documentation, service hardening, and complete structural repository audit.
+*   [**`week-01/`**](./week-01) → Linux security foundations, file system permissions, and baseline defensive automation.
+*   [**`week-02/`**](./week-02) → OSI-layer network diagnostics, gateway recovery, and CIDR subnet design.
+*   [**`week-03/`**](./week-03) → Python-driven threat intelligence automation, port scanners, and real-time auth log parsing.
+*   [**`week-04/`**](./week-04) → Multi-tier containerized architecture security and frontend/backend microservice isolation.
+*   [**`week-05/`**](./week-05) → Active Directory domain integration, automated IAM provisioning, and enterprise GPO enforcement.
+*   [**`week-06/`**](./week-06) → Cross-layer infrastructure troubleshooting, SSH security auditing, and formal Security Architecture Design (SAD).
+*   [**`week-07/`**](./week-07) → Active perimeter reconnaissance, port/service version interrogation, and risk-adjusted vulnerability triage.
+*   [**`week-08/`**](./week-08) → Vulnerability weaponization, persistent backdoor construction, privilege escalation, and SOCKS5 subnet pivoting.
+*   [**`week-09/`**](./week-09) → Web application vulnerability chaining (SQLi, XSS, CSRF) and API Broken Object Level Authorization (BOLA) exploitation.
+*   [**`week-10/`**](./week-10) → Live volatile triage, cryptographic evidence handling, raw disk block data carving, and ELK SIEM attack timeline analysis.
+*   [**`week-11/`**](./week-11) → Triple-tier Defense-in-Depth architecture engineering incorporating firewalls, network IDS signatures, and host EDR policies.
+*   [**`week-12/`**](./week-12) → Comprehensive final phase post-mortem documentation, service hardening, and complete structural repository audit.
 
 ---
 
 ## 📌 Featured Engineering Milestones
 
-### 🪓 1. Multi-Tiered Defense-in-Depth Engineering (Week 11 & 12)
+### 🪓 1. Example
 *   **Perimeter Firewalls:** Deployed kernel-level `iptables` rule-sets inside secure DMZ zones to enforce strict egress traffic parameters, dropping all unauthorized traffic directed at internal subnets (`10.0.5.0/24`) and database hubs (`10.0.5.50:3306`).
 *   **Network Intrusion Detection (IDS):** Authored customized signature profiles inside **Suricata** to identify application exploit attempts, generating high-priority tracking alerts for automated ICMP sweeps and unauthorized layer-7 malicious User-Agent signatures (`Ghost_Scanner_v1`).
 *   **Host Endpoint EDR Policies:** Architected and loaded custom XML detection schemas via **Sysmon** to trace volatile process behaviors, capturing unauthorized volume operations and precursor ransomware events (`delete shadows`).
 
-### 🩻 2. Digital Forensics & SIEM Incident Response (Week 10)
-*   **Volatile Memory & Disk Carving:** Interrogated raw memory dumps (`memdump.raw`) using low-level string extractions, and parsed raw file-system media blocks using The Sleuth Kit (`fls -r`, `icat`) to defeat anti-forensic deletions and pluck active malware payloads (`Resume.exe`) directly from unallocated sectors.
-*   **ELK SIEM Threat Hunting:** Standardized telemetry aggregation schemas inside Elasticsearch and Kibana to process thousands of distributed server events, mapping active host brute-forcing vectors, lateral Active Directory pivots utilizing compromised Domain Admin accounts, and outbound data exfiltration thresholds.
 
-### 🌪️ 3. Full-Stack Web Application & API Chained Exploitation (Week 9)
-*   **Vulnerability Chaining:** Orchestrated an end-to-end compromise chain against corporate internal portals by combining tautology-based SQL Injection (`' OR 1=1 --`) authentication bypasses, database schema mapping via advanced `UNION SELECT` extractions, and persistent Stored XSS session-hijacking.
-*   **API Security & Business Logic Auditing:** Utilized Burp Suite to analyze, manipulate, and execute ID Swapping requests to uncover Broken Object Level Authorization (BOLA) defects, and executed parameter manipulations via Burp Intruder to compromise back-end transactional logic.
-
-### ⛓️ 4. Privilege Escalation, Lateral Movement & Pivoting (Week 8)
-*   **Vertical Privilege Escalation:** Executed low-level exploitation vectors via Metasploit, establishing automated persistent cron-job reverse shells and executing shell escapes utilizing misconfigured binaries via GTFOBins (`/usr/bin/find`).
-*   **Subnet Pivoting:** Engineered tactical proxies within compromised internet-facing nodes, using automated routing rules and SOCKS5 proxy gateways to tunnel scanning utilities into air-gapped, isolated database networks.
-
----
 
 ## 📊 Core Verified Artifact Summary
 
