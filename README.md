@@ -117,7 +117,7 @@ Open to entry-level and junior roles in:
 
 ---
 
-## Where I can be found
+## Where I can be found *Hit me up*! 
 
 *   **GitHub Repository:** [github.com/ralphiecodes](https://github.com/ralphiecodes)
 *   **Professional LinkedIn:** [linkedin.com/in/ralphiecodes](https://www.linkedin.com/in/ralphie00/)
