@@ -6,7 +6,7 @@ Every lab in here is scenario-driven: real tools, real techniques, real infrastr
 
 ---
 
-## 👨‍💻 About Me
+##  About Me
 
 I build things, break things, and figure out why — whether that's a misconfigured Samba share, a vulnerable web app, or a smart contract handling real money. My background spans offensive security, full-stack development, and blockchain engineering, all picked up through hands-on labs and projects I actually shipped.
 
@@ -20,7 +20,7 @@ Skilled in:
 
 ---
 
-## 🧰 Technologies & Tools
+##  Technologies & Tools
 
 **Languages & Scripting**
 - Python, Bash, PowerShell
@@ -57,7 +57,7 @@ Skilled in:
 - GroupFund (Hackathon Build)
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 The engineering artifacts and technical documentation within this repository are structured chronologically by operational focus:
 
@@ -76,11 +76,11 @@ The engineering artifacts and technical documentation within this repository are
 
 ---
 
-## 🏆 Featured Engineering Milestones
+##  Featured Engineering Milestones
 
 ---
 
-### 🔥 1. Penetration Testing & Exploitation Lab
+###  1. Penetration Testing & Exploitation Lab
 
 - **Metasploit Exploitation:** Compromised a vulnerable target machine using Metasploit Framework, chaining service enumeration with weaponized payloads to establish a reverse shell and maintain persistent access across sessions.
 - **Privilege Escalation:** Identified and abused misconfigured SUID binaries and weak file permissions on a Linux target to escalate from a low-privilege shell to full root access.
@@ -88,7 +88,7 @@ The engineering artifacts and technical documentation within this repository are
 
 ---
 
-### 🕵️ 2. Digital Forensics & Incident Response (DFIR)
+###  2. Digital Forensics & Incident Response (DFIR)
 
 - **Volatile Memory Triage:** Captured and analyzed live system memory to extract running process trees, open network connections, and injected shellcode artifacts before they were wiped on shutdown.
 - **Raw Disk Sector Carving:** Used The Sleuth Kit (`fls`, `icat`) to recover deleted files and reconstruct filesystem timelines directly from raw disk block data without a mounted volume.
@@ -96,13 +96,13 @@ The engineering artifacts and technical documentation within this repository are
 
 ---
 
-### 🌐 3. Web Application Exploitation & API Security
+###  3. Web Application Exploitation & API Security
 
 - **Vulnerability Chaining (SQLi → XSS → CSRF):** Exploited a multi-stage web application attack path — extracting database credentials via SQL injection, injecting persistent XSS payloads into user-facing fields, and forging authenticated cross-site requests to escalate impact.
 - **BOLA / IDOR Exploitation:** Identified and abused Broken Object Level Authorization flaws in a REST API to access and exfiltrate data belonging to other users by manipulating object reference parameters in authenticated requests.
 - **Burp Suite Interception & Replay:** Intercepted live HTTP traffic, modified session tokens and request parameters in-flight, and replayed crafted requests to bypass client-side input validation and authorization controls.
 
-## 📊 Core Verified Artifact Summary
+##  Core Verified Artifact Summary
 
 | Functional Focus | Core Artifact Reference | Technical Impact Description |
 | :--- | :--- | :--- |
@@ -116,13 +116,22 @@ The engineering artifacts and technical documentation within this repository are
 | **Identity & IAM** | [`onboard_engineers.ps1`](./week-05/onboard_engineers.ps1) | PowerShell script automating Active Directory user provisioning, group membership assignment, and GPO-based access policy enforcement across a Windows Server 2022 domain. |
 ---
 
-## 🎯 Career Objective
+##  Career Objective
 
 
+Breaking into the industry after spending the last year going heads down — building real skills across offensive security, defensive engineering, blockchain development, and full-stack automation. Every project in this repo was built hands-on: no walkthroughs, no shortcuts.
+
+Looking for a role where I can do real work — whether that's on a red team, a SOC, a security engineering team, or somewhere at the intersection of Web3 and security. I learn fast, I ship things, and I'd rather figure out why an exploit works than just run it and move on.
+
+Open to entry-level and junior roles in:
+- Penetration Testing / Red Team Operations
+- Security Engineering & Automation
+- SOC / Incident Response & DFIR
+- Blockchain Security & Smart Contract Auditing
 
 ---
 
-## 📬 Let’s Connect
+## 📬 Where I can be found
 
 *   **GitHub Repository:** [github.com/ralphiecodes](https://github.com/ralphiecodes)
 *   **Professional LinkedIn:** [linkedin.com/in/topherdiaz87](https://www.linkedin.com/in/ralphie00/)
