@@ -16,13 +16,13 @@ This audit matrix verifies the structural integrity, asset compilation, and corr
 | **Week2-Artifact** | `README.md` Present | `briefing.txt`, `protocol_audit.txt`, `subnet_blueprint.txt` | Yes |
 | **Week3-Artifact** | `README.md` Present | `brute_detector.py`, `incident_response.py`, `port_check.py` | Yes |
 | **Week4-Artifact** | `README.md` Present | `deploy_web.sh`, `docker_compose.yml`, `sandbox_report.txt` | Yes |
-| **Week5-Artifact** | `README.md` Present | `gpo_audit.txt`, `onboard_engineers.ps1`, `tlab5_report.txt` | Yes |
+| **Week5-Artifact** | `README.md` Incomplete | `gpo_audit.txt`, `onboard_engineers.ps1`, `tlab5_report.txt` | No |
 | **Week6-Artifact** | `README.md` Present | `HardenedOutpost_SAD.pdf`, `practical_exam_report.txt` | Yes |
 | **Week7-Artifact** | `README.md` Present | `Perimeter_Assessment.md`, `ThreatProfile_CloudNano.md` | Yes |
-| **Week8-Artifact** | `README.md` Present | `Deep_Pivot_Report.md`, `escalation_path.txt`, `pivot_success.png` | Yes |
+| **Week8-Artifact** | `README.md` Incomplete | `Deep_Pivot_Report.md`, `escalation_path.txt`, `pivot_success.png` |No |
 | **Week9-Artifact** | `README.md` Present | `OmniPortal_Assessment.md`, `api_audit.log`, `sqli_report.txt` | Yes |
 | **Week10-Artifact**| `README.md` Present | `Incident_Response_Report.md`, `attack_timeline.csv` | Yes |
-| **Week11-Artifact**| Pending Update | `Operation_Fortress_Report.md`, `custom_ids.rules` | Yes |
+| **Week11-Artifact**| `README.md` Present | `Operation_Fortress_Report.md`, `custom_ids.rules` | Yes |
 | **Week12-Artifact**| `README.md` Present | `tepp_postmortem.md`, `portfolio_audit.md` | Yes |
 
 ---
