@@ -1,5 +1,6 @@
 # INCIDENT RESPONSE REPORT: PHANTOM PURSUIT
-**Operator:Ralphie Perez** ## PHASE 1: SIEM CORRELATION
+**Operator:Ralphie Perez** 
+## PHASE 1: SIEM CORRELATION
 * **Initial Alert Source IP:** 198.51.100.44
 
 ## PHASE 2: LIVE TRIAGE & CHAIN OF CUSTODY
