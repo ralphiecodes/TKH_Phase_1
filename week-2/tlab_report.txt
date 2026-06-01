@@ -1,0 +1,24 @@
+================================================
+TLAB W2: Operation Blackout — Final Report
+================================================
+
+--- TASK 1: Subnet Remediation ---
+Restored default gateway route:
+default via 192.168.0.1 dev enp0s3 
+192.168.0.0/24 dev enp0s3 proto kernel scope link src 192.168.0.142 
+
+--- TASK 2: DNS Deception ---
+Removed malicious /etc/hosts entry (10.99.99.99 -> secure.titancorp.com)
+Restored correct mapping:
+
+192.168.10.193    secure.titancorp.com
+
+--- TASK 3: Handshake Proof ---
+TCP 3-way handshake captured via tcpdump on 192.168.10.193:
+
+03:38:32.323958 IP 192.168.10.193.43856 > 192.168.10.193.80: Flags [S]
+03:38:32.323967 IP 192.168.10.193.80 > 192.168.10.193.43856: Flags [S.]
+03:38:32.323976 IP 192.168.10.193.43856 > 192.168.10.193.80: Flags [.]
+
+Handshake complete. HTTP GET transmitted confirmed by [P.] flag.
+================================================

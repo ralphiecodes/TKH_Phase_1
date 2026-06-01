@@ -1,0 +1,13 @@
+HTTP/1.1 301 Moved Permanently
+Location: http://www.google.com/
+Content-Type: text/html; charset=UTF-8
+Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-WhgAESzd0zkkaAzbqHe6aw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+Reporting-Endpoints: default="//www.google.com/httpservice/retry/jserror?ei=tG_BaeGBC5naptQPx86q6AY&cad=crash&error=Page%20Crash&jsel=1&bver=2405&dpf=xtUUWd-zVWPfFMmGz6_kfKnGmJa-MrcLKAJkm6oqtV0"
+Date: Mon, 23 Mar 2026 16:52:04 GMT
+Expires: Wed, 22 Apr 2026 16:52:04 GMT
+Cache-Control: public, max-age=2592000
+Server: gws
+Content-Length: 219
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+

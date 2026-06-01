@@ -1,0 +1,19 @@
+==================================================
+SESSION 26: CLIENT-SIDE ATTACK PAYLOADS
+==================================================
+
+1. REFLECTED XSS
+Target: http://192.168.0.142:8081/search
+Payload: <script>alert('XSS')</script>
+* Concept: Why does this attack disappear when you refresh the page?
+Answer: Reflected XSS disappears on f5 because the payload is never stored on the server. It only exists in HTTP request/response cycle. 
+Reloading it would just erase it.
+
+2. STORED XSS (Cookie Theft)
+* Cookie Value Stolen: [Paste the value of the session_id cookie]
+* Payload Used: [<script>alert(document.cookie)</script]
+
+3. CROSS-SITE REQUEST FORGERY (CSRF)
+* Malicious URL Crafted: [http://192.168.0.142:8081/transfer?to=Attacker&amount=5000]
+* Concept: What is the primary defense against CSRF?
+Answer: CSRF token is hidden and unpredictable so if the token is rejected then the transfer would be rejected as well. You can't really guess the token either.

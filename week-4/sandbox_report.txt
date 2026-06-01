@@ -1,0 +1,10 @@
+==================================================
+SESSION 10: SANDBOX DETONATION REPORT
+Operator: ralphie
+==================================================
+
+QUESTION 1: Did the ping to google.com succeed or fail in Host-Only mode?
+ANSWER: Yes, it failed because I'm air gapped so nothing can go in or go out.
+
+QUESTION 2: Why must a SOC analyst NEVER use "Bridged" mode when detonating unknown malware?
+ANSWER: Because its connected to your main computer and it can give the malware access especially if the malware is programmed to use sudo in bridgemode.
