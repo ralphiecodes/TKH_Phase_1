@@ -65,9 +65,10 @@ The engineering artifacts and technical documentation within this repository are
 *   [**`week-02/`**](./week-02) → OSI-layer network diagnostics, gateway recovery, and CIDR subnet design.
 *   [**`week-03/`**](./week-03) → Python-driven threat intelligence automation, port scanners, and real-time auth log parsing.
 *   [**`week-04/`**](./week-04) → Multi-tier containerized architecture security and frontend/backend microservice isolation.
+*   [**`week-05/`**](./week-05) → Not Complete
 *   [**`week-06/`**](./week-06) → Cross-layer infrastructure troubleshooting, SSH security auditing, and formal Security Architecture Design (SAD).
 *   [**`week-07/`**](./week-07) → Active perimeter reconnaissance, port/service version interrogation, and risk-adjusted vulnerability triage.
-*   [**`week-08/`**](./week-08) → Vulnerability weaponization, persistent backdoor construction, privilege escalation, and SOCKS5 subnet pivoting.
+*   [**`week-08/`**](./week-08) → Not Complete
 *   [**`week-09/`**](./week-09) → Web application vulnerability chaining (SQLi, XSS, CSRF) and API Broken Object Level Authorization (BOLA) exploitation.
 *   [**`week-10/`**](./week-10) → Live volatile triage, cryptographic evidence handling, raw disk block data carving, and ELK SIEM attack timeline analysis.
 *   [**`week-11/`**](./week-11) → Triple-tier Defense-in-Depth architecture engineering incorporating firewalls, network IDS signatures, and host EDR policies.
@@ -121,7 +122,3 @@ Open to entry-level and junior roles in:
 *   **GitHub Repository:** [github.com/ralphiecodes](https://github.com/ralphiecodes)
 *   **Professional LinkedIn:** [linkedin.com/in/topherdiaz87](https://www.linkedin.com/in/ralphie00/)
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 5732162d3209ea7cee7badd8ff6241f8813233bd
