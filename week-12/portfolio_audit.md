@@ -31,20 +31,48 @@ This audit matrix verifies the structural integrity, asset compilation, and corr
 
 ### Abstract
 
+This portfolio documents twelve weeks of applied cybersecurity training built on
+top of a CS degree and three and a half years as an automation engineer at Cigna.
+What this program added was security-specific context — the ability to look at a
+network or application and think adversarially. This reflection covers that
+progression and where I'm headed next.
+
 ---
 
 ### Evolutionary Growth and Technical Progression
+
+Coming in with an engineering background meant I understood systems and scripting,
+but I had never applied those skills in a security context. The early weeks
+changed that — writing hardening scripts, designing network architecture, and
+building incident response tooling forced me to think about threat reduction
+rather than process efficiency. The offensive phases pushed that further. Actually
+executing SQL injection, XSS, and API enumeration attacks made me stop thinking
+like someone building systems and start thinking like someone breaking them. That
+shift changes how you read code, evaluate architecture, and interpret alerts.
 
 ---
 
 ### Red-Team Execution and Blue-Team Synthesis
 
+The defensive work hit differently because the offensive work came first. When I
+wrote Suricata signatures and built a Defense in Depth architecture in Weeks 10
+and 11, I was writing detections for attack patterns I had already run myself.
+Reconstructing an attacker's full timeline in Kibana — correlating an external IP
+through lateral movement to a firewall exfiltration anomaly — made log correlation
+concrete and repeatable. That is the exact workflow a SOC analyst runs during
+incident investigation, and having built it from scratch is the most transferable
+thing this program produced.
 
 ---
 
 ### Conclusion and Future Trajectory
 
-
+I came in able to build and automate enterprise systems. I leave understanding how
+those systems fail and how defenders detect and respond when they do. The next
+step is Security+ certification and continuing to sharpen detection engineering
+skills in the lab. The goal is a SOC Analyst role where I can apply everything
+here — reading alerts with the context of someone who has run the attacks, and
+communicating findings with the clarity this program demanded every single week.
 ---
 
 ## References
