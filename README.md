@@ -102,20 +102,6 @@ The engineering artifacts and technical documentation within this repository are
 - **BOLA / IDOR Exploitation:** Identified and abused Broken Object Level Authorization flaws in a REST API to access and exfiltrate data belonging to other users by manipulating object reference parameters in authenticated requests.
 - **Burp Suite Interception & Replay:** Intercepted live HTTP traffic, modified session tokens and request parameters in-flight, and replayed crafted requests to bypass client-side input validation and authorization controls.
 
-##  Core Verified Artifact Summary
-
-| Functional Focus | Core Artifact Reference | Technical Impact Description |
-| :--- | :--- | :--- |
-| **Defensive Engineering** | [`firewall_config.sh`](./week-11/firewall_config.sh) | Bash-scripted stateful `iptables` rule-sets enforcing default-deny postures, egress filtering, and hardened DMZ routing across isolated internal subnets. |
-| **Detection Engineering** | [`custom_ids.rules`](./week-11/custom_ids.rules) | Hand-authored Suricata signature profiles flagging automated ICMP sweeps, malicious User-Agent strings, and application-layer exploit attempts in real time. |
-| **Endpoint Security** | [`edr_policy.xml`](./week-11/edr_policy.xml) | Custom Sysmon XML schema tracing volatile process behaviors, unauthorized volume operations, and precursor ransomware activity (`delete shadows`). |
-| **Security Architecture** | [`HardenedOutpost_SAD.pdf`](./week-06/HardenedOutpost_SAD.pdf) | Full Security Architecture Design mapping multi-tier network topology, SSH hardening controls, and host-based access policy across a simulated enterprise environment. |
-| **Vulnerability Assessment** | [`OmniPortal_Assessment.md`](./week-09/OmniPortal_Assessment.md) | End-to-end web application audit covering SQLi, XSS, CSRF chaining, and BOLA/IDOR API flaws with source-level remediation recommendations. |
-| **Digital Forensics** | [`Incident_Response_Report.md`](./week-10/Incident_Response_Report.md) | Full DFIR report covering live memory triage, raw disk sector carving via The Sleuth Kit, and multi-source ELK SIEM attack timeline reconstruction. |
-| **Security Scripting** | [`incident_response.py`](./week-03/incident_response.py) | Python-built auth log parser extracting real-time brute-force attacker footprints, flagging anomalous login patterns, and automating threat intelligence reporting. |
-| **Identity & IAM** | [`onboard_engineers.ps1`](./week-05/onboard_engineers.ps1) | PowerShell script automating Active Directory user provisioning, group membership assignment, and GPO-based access policy enforcement across a Windows Server 2022 domain. |
----
-
 ##  Career Objective
 
 
