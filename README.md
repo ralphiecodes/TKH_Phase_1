@@ -77,14 +77,31 @@ The engineering artifacts and technical documentation within this repository are
 
 ---
 
-## 📌 Featured Engineering Milestones
+## 🏆 Featured Engineering Milestones
 
-### 🪓 1. Example
-*   **Perimeter Firewalls:** Deployed kernel-level `iptables` rule-sets inside secure DMZ zones to enforce strict egress traffic parameters, dropping all unauthorized traffic directed at internal subnets (`10.0.5.0/24`) and database hubs (`10.0.5.50:3306`).
-*   **Network Intrusion Detection (IDS):** Authored customized signature profiles inside **Suricata** to identify application exploit attempts, generating high-priority tracking alerts for automated ICMP sweeps and unauthorized layer-7 malicious User-Agent signatures (`Ghost_Scanner_v1`).
-*   **Host Endpoint EDR Policies:** Architected and loaded custom XML detection schemas via **Sysmon** to trace volatile process behaviors, capturing unauthorized volume operations and precursor ransomware events (`delete shadows`).
+---
 
+### 🔥 1. Penetration Testing & Exploitation Lab
 
+- **Metasploit Exploitation:** Compromised a vulnerable target machine using Metasploit Framework, chaining service enumeration with weaponized payloads to establish a reverse shell and maintain persistent access across sessions.
+- **Privilege Escalation:** Identified and abused misconfigured SUID binaries and weak file permissions on a Linux target to escalate from a low-privilege shell to full root access.
+- **SOCKS5 Pivoting:** Configured a SOCKS5 proxy tunnel through a compromised host to pivot laterally into an isolated internal subnet, reaching systems with no direct external exposure.
+
+---
+
+### 🕵️ 2. Digital Forensics & Incident Response (DFIR)
+
+- **Volatile Memory Triage:** Captured and analyzed live system memory to extract running process trees, open network connections, and injected shellcode artifacts before they were wiped on shutdown.
+- **Raw Disk Sector Carving:** Used The Sleuth Kit (`fls`, `icat`) to recover deleted files and reconstruct filesystem timelines directly from raw disk block data without a mounted volume.
+- **ELK SIEM Timeline Reconstruction:** Ingested and correlated multi-source log data inside an ELK Stack deployment to rebuild a full attack timeline, mapping each stage of compromise from initial access through lateral movement.
+
+---
+
+### 🌐 3. Web Application Exploitation & API Security
+
+- **Vulnerability Chaining (SQLi → XSS → CSRF):** Exploited a multi-stage web application attack path — extracting database credentials via SQL injection, injecting persistent XSS payloads into user-facing fields, and forging authenticated cross-site requests to escalate impact.
+- **BOLA / IDOR Exploitation:** Identified and abused Broken Object Level Authorization flaws in a REST API to access and exfiltrate data belonging to other users by manipulating object reference parameters in authenticated requests.
+- **Burp Suite Interception & Replay:** Intercepted live HTTP traffic, modified session tokens and request parameters in-flight, and replayed crafted requests to bypass client-side input validation and authorization controls.
 
 ## 📊 Core Verified Artifact Summary
 
