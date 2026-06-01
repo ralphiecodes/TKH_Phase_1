@@ -20,7 +20,7 @@ This audit matrix verifies the structural integrity, asset compilation, and corr
 | **Week6-Artifact** | `README.md` Present | `HardenedOutpost_SAD.pdf`, `practical_exam_report.txt` | Yes |
 | **Week7-Artifact** | `README.md` Present | `Perimeter_Assessment.md`, `ThreatProfile_CloudNano.md` | Yes |
 | **Week8-Artifact** | `README.md` Incomplete | `Deep_Pivot_Report.md`, `escalation_path.txt`, `pivot_success.png` |No |
-| **Week9-Artifact** | `README.md` Incomplete | `OmniPortal_Assessment.md`, `api_audit.log`, `sqli_report.txt` | No |
+| **Week9-Artifact** | `README.md` Present | `OmniPortal_Assessment.md`, `api_audit.log`, `sqli_report.txt` | Yes |
 | **Week10-Artifact**| `README.md` Present | `Incident_Response_Report.md`, `attack_timeline.csv` | Yes |
 | **Week11-Artifact**| `README.md` Present | `Operation_Fortress_Report.md`, `custom_ids.rules` | Yes |
 | **Week12-Artifact**| `README.md` Present | `tepp_postmortem.md`, `portfolio_audit.md` | Yes |
