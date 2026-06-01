@@ -24,7 +24,6 @@ Skilled in:
 
 **Languages & Scripting**
 - Python, Bash, PowerShell
-- Solidity
 - JavaScript (Ethers.js, Web3 frontend integration)
 
 **Offensive & Penetration Testing**
@@ -107,15 +106,14 @@ The engineering artifacts and technical documentation within this repository are
 
 | Functional Focus | Core Artifact Reference | Technical Impact Description |
 | :--- | :--- | :--- |
-| **Defensive Engineering** | [`firewall_config.sh`](./Week11-Artifact/firewall_config.sh) | Scripted stateful access rules, default-deny postures, and automated DMZ network routing controls. |
-| **Detection Engineering** | [`custom_ids.rules`](./Week11-Artifact/custom_ids.rules) | Optimized Suricata signatures tracking network scanning sweeps and application-layer signature profiles. |
-| **Endpoint Security** | [`edr_policy.xml`](./Week11-Artifact/edr_policy.xml) | Target XML configuration file isolating malicious PowerShell behaviors and ransomware volume modification attempts. |
-| **Security Architecture**| [`HardenedOutpost_SAD.pdf`](./Week6-Artifact/HardenedOutpost_SAD.pdf)| Comprehensive architectural design plan mapping secure network topology configurations and host-based access controls. |
-| **Vulnerability Assessment**| [`OmniPortal_Assessment.md`](./Week9-Artifact/OmniPortal_Assessment.md)| Forensic auditing ledger detailing multi-stage web application exploits and source-code level parameterized remediation strategies. |
-| **Digital Forensics** | [`Incident_Response_Report.md`](./Week10-Artifact/Incident_Response_Report.md)| Industrial-grade DFIR report detailing memory string extraction, disk block sector manipulation, and core SIEM log correlation. |
-| **System Automation** | [`incident_response.py`](./Week3-Artifact/incident_response.py) | Dynamic Python processing engine parsing live server authentication logs to extract real-time brute-force attacker footprints. |
-| **Identity & IAM** | [`onboard_engineers.ps1`](./Week5-Artifact/onboard_engineers.ps1)| Scripted PowerShell Core configuration tool automating Active Directory object generation and asset group access mappings. |
-
+| **Defensive Engineering** | [`firewall_config.sh`](./week-11/firewall_config.sh) | Bash-scripted stateful `iptables` rule-sets enforcing default-deny postures, egress filtering, and hardened DMZ routing across isolated internal subnets. |
+| **Detection Engineering** | [`custom_ids.rules`](./week-11/custom_ids.rules) | Hand-authored Suricata signature profiles flagging automated ICMP sweeps, malicious User-Agent strings, and application-layer exploit attempts in real time. |
+| **Endpoint Security** | [`edr_policy.xml`](./week-11/edr_policy.xml) | Custom Sysmon XML schema tracing volatile process behaviors, unauthorized volume operations, and precursor ransomware activity (`delete shadows`). |
+| **Security Architecture** | [`HardenedOutpost_SAD.pdf`](./week-06/HardenedOutpost_SAD.pdf) | Full Security Architecture Design mapping multi-tier network topology, SSH hardening controls, and host-based access policy across a simulated enterprise environment. |
+| **Vulnerability Assessment** | [`OmniPortal_Assessment.md`](./week-09/OmniPortal_Assessment.md) | End-to-end web application audit covering SQLi, XSS, CSRF chaining, and BOLA/IDOR API flaws with source-level remediation recommendations. |
+| **Digital Forensics** | [`Incident_Response_Report.md`](./week-10/Incident_Response_Report.md) | Full DFIR report covering live memory triage, raw disk sector carving via The Sleuth Kit, and multi-source ELK SIEM attack timeline reconstruction. |
+| **Security Scripting** | [`incident_response.py`](./week-03/incident_response.py) | Python-built auth log parser extracting real-time brute-force attacker footprints, flagging anomalous login patterns, and automating threat intelligence reporting. |
+| **Identity & IAM** | [`onboard_engineers.ps1`](./week-05/onboard_engineers.ps1) | PowerShell script automating Active Directory user provisioning, group membership assignment, and GPO-based access policy enforcement across a Windows Server 2022 domain. |
 ---
 
 ## 🎯 Career Objective
